@@ -1,0 +1,13 @@
+# Original Phase 1 pins (supported by Python 3.13 and earlier).
+fastapi==0.115.0 ; python_version < "3.14"
+uvicorn==0.30.6 ; python_version < "3.14"
+pandas==2.2.3 ; python_version < "3.14"
+scikit-learn==1.5.2 ; python_version < "3.14"
+streamlit==1.38.0 ; python_version < "3.14"
+
+# Python 3.14 needs wheels released after the original Phase 1 pins.
+fastapi>=0.115.0 ; python_version >= "3.14"
+uvicorn>=0.30.6 ; python_version >= "3.14"
+pandas>=2.2.3 ; python_version >= "3.14"
+scikit-learn>=1.5.2 ; python_version >= "3.14"
+streamlit>=1.38.0 ; python_version >= "3.14"
